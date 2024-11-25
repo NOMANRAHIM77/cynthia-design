@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Freeman&family=Jersey+25&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito";
+  color: white;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#minicircle {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index: 20;
+  border-radius: 100px;
+  background-color: #fff;
+  mix-blend-mode: difference;
+  transition: 0.1s;
+}
+#main {
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+#hero {
+  width: 100%;
+  height: 374vh;
+  background-color: black;
+}
+#nav1 {
+  width: 100%;
+  color: white;
+  padding: 25px;
+  font-size: 20px;
+}
+#nav2 {
+  color: white;
+  padding: 25px;
+  font-weight: 200;
+  font-size: 20px;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+#heading {
+  color: white;
+}
+#heading h1 {
+  color: white;
+  font-size: 9vw;
+  opacity: 0.6;
+}
+#heading1 {
+  padding-left: 0vw;
+  padding-top: 6vw;
+  height: 130px;
+ position:absolute;
+ top: 3%;
+ left: -30%;
+}
+#heading2 {
+  padding-left: 16vw;
+}
+#heading h5 {
+  color: white;
+  font-size: 1.2vw;
+  padding-left: 49vw;
+  transform: translateY(-2vw);
+}
+#smallheadings {
+  padding-left: 82vw;
+
+  font-size: 1.5vw;
+  padding-top: 80px;
+}
+#heading3 {
+  padding-left: 3.6vw;
+  padding-top: 10px;
+}
+#smallbuttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+#buttons {
+  padding-right: 20px;
+}
+#buttons button {
+  height: 30px;
+  width: 30px;
+  border-radius: 500px;
+  border: none;
+  padding: 5px;
+}
+#maincontent {
+  padding-top: 200px;
+}
+.mainextra {
+  border-top: 1px solid white;
+}
+#main1 {
+  height: 230px;
+  width: 100%;
+  border-bottom: 2px solid white;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+#image img {
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+  object-fit: cover;
+  padding: 30px;
+}
+#image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 250px;
+  flex-wrap: wrap;
+}
+#content button {
+  height: 30px;
+  width: 90px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border: 1px solid white;
+  color: rgb(255, 251, 251);
+  background-color: black;
+  font-weight: 500;
+}
+
+#secondlast-1 {
+  margin-top: 160px;
+  margin-left: 30px;
+  opacity: 0.7;
+}
+#secondlast-2 {
+  margin-left: 30px;
+}
+#last1 {
+  display: flex;
+  padding: 10px;
+}
+#alllast {
+  padding: 20px;
+  font-size: 15px;
+}
+#last2 {
+  display: flex;
+}
+#last {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+    
+   
+    
+}
+.bounding .boundingelem{
+   transform: translate(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+  #heading h1 {
+    color: white;
+    font-size: 15vw;
+    opacity: 0.6;
+  }
+  #heading1 {
+    padding-left: 6vw;
+    padding-top: 6vw;
+    height: 100px;
+  }
+  #heading2 {
+    padding-left: 16vw;
+    transform: translatey(-5vw);
+  }
+  #heading h5 {
+    color: white;
+    font-size: 3vw;
+    padding-left: 60vw;
+    transform: translateY(-6vw);
+  }
+  #smallheadings {
+    padding-left: 70vw;
+
+    font-size: 2.6vw;
+    padding-top: 80px;
+  }
+  #image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+    flex-wrap: wrap;
+  }
+  #last {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    flex-wrap: wrap;
+  }
+  #hero {
+    width: 100%;
+    height: 380vh;
+    background-color: black;
+  }
+  #last1 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  #last2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #buttons button {
+    opacity: 0;
+  }
+  #smallbuttons {
+    flex-wrap: wrap;
+    padding-top: 40px;
+  }
+  #smallheadings {
+    font-size: 4vw;
+    margin-right: 3vw;
+  }
+  #main1 {
+    height: 200px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+}
